@@ -1,0 +1,178 @@
+body {
+    font-family: Exo, sans-serif;
+}
+.noListStyle {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.marginBottom15 {
+    margin-bottom: 15px;
+}
+.marginTop10 {
+    margin-top: 10px;
+}
+.navbar {
+    box-shadow: 0 3px 2px #888888;
+    border-radius: 0;
+    background-color: #FFF;
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    padding: 5px 25px !important;
+}
+.menu {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.logo {
+    display: block;
+    max-width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.navbar-default .navbar-nav>li>a {
+    display: inline-block;
+    font-family: Exo, sans-serif;
+    color: #0F5F9C;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: #0F5F9C !important;
+}
+.loader {
+    background-attachment: fixed;
+    background-image: url('../images/loading.gif');
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+.boldExo {
+    width: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #00A6FF;
+    font-size: 25px;
+    font-family: Exo, sans-serif;
+    line-height: 44px;
+    font-weight: 600;
+    text-align: center;
+}
+/* HOMEPAGE */
+.signUpJumbotron {
+    min-height: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    background-color: #555;
+    color: #FFF;
+}
+.signUpJumbotron h1 {
+    font-family: Exo, sans-serif;
+    font-size: 34px !important;
+    line-height: 44px;
+    font-weight: 600;
+}
+.signHeaderContent {
+    width: auto;
+    margin-top: 10px;
+    color: #5D5D5D;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+    overflow: auto;
+    max-height: 100px;
+    font-family: Exo, sans-serif;
+    display: block;
+}
+.signUpHeader {
+    margin-bottom: 10px;
+}
+.signUpTxt {
+    color: #5d5d5d;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    width: auto;
+    margin-bottom: 10px;
+}
+/* HOMEPAGE END */
+
+/* FOOTER */
+.footer {
+    background-color: #333;
+    padding: 60px 0;
+    border-top: 10px solid #1189CA;
+}
+.footerHeading {
+    margin-bottom: 10px;
+    font-family: Exo, sans-serif;
+    color: #CFD2D4;
+    font-size: 16px;
+    font-weight: 700;
+}
+.footerLink {
+    width: auto;
+    height: auto;
+    margin-left: 0;
+    padding-top: 5px;
+    color: #CFD2D4;
+    font-size: 13px;
+    font-weight: 300;
+    list-style-type: none;
+}
+.footerLink > a {
+    color: #CFD2D4;
+}
+.footerLink > a:hover {
+    color: #FFF;
+    text-decoration: none;
+}
+.footerSocialImages {
+    margin-right: 5px;
+    width: 40px;
+    border: 1px solid #0A4A7A;
+    height: 40px;
+}
+.weeklyUpdate {
+    margin-top: 20px
+}
+.weeklyUpdate .txt {
+    margin-bottom: 10px;
+    color: #CFD2D4;
+    font-size: 15px;
+}
+/* FOOTER END */
+
+.contentBody {
+    min-height: 400px;
+    padding: 10px;
+}
+a.thumb {
+    display: inline-block;
+    padding: 10px;
+}
+a.thumb:hover {
+    text-decoration: none;
+}
+@media (max-width: 768px) {
+    .navbar-default .navbar-collapse {
+        margin-top: 10px;
+    }
+}
+@media (max-width: 480px) {
+    .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+        padding: 5px 0 5px 10px !important;
+    }
+    .logo {
+        width: 180px;
+    }
+}
